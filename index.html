@@ -10,10 +10,34 @@
 </head>
 <body>
     <div class="container">
-        <header></header>
+        <header>
+            <div class="searchbar">
+                <div class="bar header-margin-left">
+                    <i class="fas fa-search">
+                    </i><input type="text" name="#" id="#">
+                </div>
+                <div class="notifications header-margin-right">
+                    <i class="far fa-bell"></i>
+                    <img class="rounded-img" src="img/user-profile-pic.png" alt="user profile pic" width="40px" height="40px">
+                    <p class="name">Jesús Arrazola</p>
+                </div>
+            </div>
+            <div class="user-actions">
+                <div class="user-info header-margin-left">
+                    <img class="rounded-img" src="img/user-profile-pic.png" alt="user profile pic" width="50px" height="50px">
+                    <div>
+                        <p class="hi-there">Hi there,</p>
+                        <p class="user-name">Jesús Arrazola (@JesusArrazola)</p>
+                    </div>
+                </div>
+                <div class="actions header-margin-right">
+                    <button class="action">New</button><button class="action">Upload</button><button class="action">Share</button>
+                </div>
+            </div>
+        </header>
         <section class="sidebar">
-            <div class="subsection">
-                <p class="logo"><i class="fas fa-archway"></i>Dashboard</p>
+            <div class="subsection main-subsection">
+                <p class="logo"><i class="fas fa-archway"></i> Dashboard</p>
             </div>
             <div class="subsection">
                 <p><i class="sid fas fa-home"></i> Home</p>
@@ -30,11 +54,29 @@
             </div>
             <div class="blankspace"></div>
             <div class="footer">
-                <p class="copyright-p">Made with<i class="fas fa-heart"></i>by <a href="#">Jesús Arrazola</a></p>
+                <p class="copyright-p">Made with <i class="fas fa-heart"></i> by <a href="#">Jesús Arrazola</a></p>
             </div>
         </section>
         <article></article>
-        <section class="misc"></section>
+        <section class="misc">
+            <p class="subtitle">Announcements</p>
+            <div class="card">
+                <div class="announcement-item">
+                    <p class="announcement-title"></p>
+                    <p class="announcement-content"></p>
+                </div>
+                <div class="announcement-item">
+                    <p class="announcement-title"></p>
+                    <p class="announcement-content"></p>
+                </div>
+                <div class="announcement-item">
+                    <p class="announcement-title"></p>
+                    <p class="announcement-content"></p>
+                </div>
+            </div>
+            <p class="subtit">Trendings</p>
+            <div class="card"></div>
+        </section>
     </div>
 </body>
 </html>
