@@ -174,3 +174,21 @@ header{
     box-shadow: 0px 1px 3px 0px #000;
     border-radius: 5px;
 }
+.subtitle{
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+}
+.announcement-title{
+    border-top: 1px solid #000;
+    font-weight: 600;
+    margin: 0;
+    padding: 5px 0;
+}
+.announcement-title:first-child {
+    border: none;
+}
+.announcement-content{
+    font-size: .9rem;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
